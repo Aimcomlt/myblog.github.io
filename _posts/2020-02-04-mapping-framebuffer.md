@@ -38,7 +38,5 @@ through system interconnect. This gives several advantages:
 2. Regular RAM can be used for other purposes.
 3. GPU RAM is accessed as regular memory (convenience).
 
-After all these steps, GPU memory can be accessed via regular readb/writeb/etc
-instructions. The usual reason to use wrapper instead of using raw pointers
-is that on different platforms raw access might not work at all, and having 
-a common place to change access details if needed is always a good thing.
+After all these steps, GPU memory can be accessed via as a regular memory,
+in this case as a framebuffer containing picture data.
