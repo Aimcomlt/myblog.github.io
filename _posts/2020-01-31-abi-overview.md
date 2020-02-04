@@ -50,7 +50,7 @@ modules that are using them.
 ### libc
 Libc is generally backward-compatible, however nowadays glibc provides versions
 for its exported symbols, meaning that program compiled with newer glibc cannot
-be run on older version. This is why some people keep and old Linux version 
+be run on older version. This is why some people keep old Linux version
 on a build server for compiling and linking against old libc.
 
 ### Shared libraries
